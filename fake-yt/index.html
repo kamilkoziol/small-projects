@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Fake Youtube</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/video.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img
+          class="hamburger-menu"
+          src="icons/hamburger-menu.svg"
+          alt="hamburger-menu"
+        />
+        <img
+          class="youtube-logo"
+          src="icons/youtube-logo.svg"
+          alt="youtube-logo"
+        />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" alt="search" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img
+            class="voice-search-icon"
+            src="icons/voice-search-icon.svg"
+            alt="voice-search"
+          />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg" alt="upload" />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-icon-container">
+          <img
+            class="youtube-apps-icon"
+            src="icons/youtube-apps.svg"
+            alt="youtube-apps"
+          />
+          <div class="tooltip">YouTube Apps</div>
+        </div>
+
+        <div class="notification-icon-container">
+          <img
+            class="notification-icon"
+            src="icons/notifications.svg"
+            alt="notifications"
+          />
+          <div class="notification-count">7</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+
+        <img
+          class="current-user-avatar"
+          src="avatars/avatar-self.jpg"
+          alt="avatar-self"
+        />
+      </div>
+    </div>
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg" alt="" />
+        <div class="sidebar-name">Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg" alt="" />
+        <div class="sidebar-name">Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg" alt="" />
+        <div class="sidebar-name">Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg" alt="" />
+        <div class="sidebar-name">Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg" alt="" />
+        <div class="sidebar-name">YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg" alt="" />
+        <div class="sidebar-name">Library</div>
+      </div>
+    </div>
+    <div class="video-grid-container">
+      <div class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="thumbnails/thumbnail-1.webp"
+              alt=""
+            />
+            <div class="video-time">12:12</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-avatar">
+              <img
+                class="profile-picture"
+                src="avatars/avatar-1.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-meta">
+              <p class="video-title">
+                This Cup Of The Day Was Pure Troll... (FULL VOD)
+              </p>
+              <p class="video-author">Wirtual VOD</p>
+              <p class="video-stats">3.2K views &#8226; 54 minutes ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="thumbnails/thumbnail-2.webp"
+              alt=""
+            />
+            <div class="video-time">4:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-avatar">
+              <img
+                class="profile-picture"
+                src="avatars/avatar-2.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-meta">
+              <p class="video-title">How many continents are there?</p>
+              <p class="video-author">Jay Foreman</p>
+              <p class="video-stats">1.8M views &#8226; 11 months ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="thumbnails/thumbnail-3.webp"
+              alt=""
+            />
+            <div class="video-time">21:15</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-avatar">
+              <img
+                class="profile-picture"
+                src="avatars/avatar-3.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-meta">
+              <p class="video-title">
+                Partyjka naprawdę pikantna! Przygotujcie coś do popicia..
+                Jones vs. Praggnanandhaa, Chessable, 2022
+              </p>
+              <p class="video-author">Jay Foreman</p>
+              <p class="video-stats">4.6K views &#8226; 14 hours ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="thumbnails/thumbnail-4.webp"
+              alt=""
+            />
+            <div class="video-time">21:37</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-avatar">
+              <img
+                class="profile-picture"
+                src="avatars/avatar-4.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-meta">
+              <p class="video-title">
+                Jimmy Tricks The Court | Namaste | Better Call Saul
+              </p>
+              <p class="video-author">Breaking Bad & Better Call Saul</p>
+              <p class="video-stats">2.2M views &#8226; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="thumbnails/thumbnail-5.webp"
+              alt=""
+            />
+            <div class="video-time">9:97</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-avatar">
+              <img
+                class="profile-picture"
+                src="avatars/avatar-5.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-meta">
+              <p class="video-title">
+                Qualifying Highlights | 2022 Monaco Grand Prix
+              </p>
+              <p class="video-author">FORMULA 1</p>
+              <p class="video-stats">3.6M views &#8226; 16 hours ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="thumbnails/thumbnail-2.webp"
+              alt=""
+            />
+            <div class="video-time">1:12</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-avatar">
+              <img
+                class="profile-picture"
+                src="avatars/avatar-2.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-meta">
+              <p class="video-title">How many continents are there?</p>
+              <p class="video-author">Jay Foreman</p>
+              <p class="video-stats">1.8M views &#8226; 11 months ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="thumbnails/thumbnail-2.webp"
+              alt=""
+            />
+            <div class="video-time">21:15</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-avatar">
+              <img
+                class="profile-picture"
+                src="avatars/avatar-2.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-meta">
+              <p class="video-title">How many continents are there?</p>
+              <p class="video-author">Jay Foreman</p>
+              <p class="video-stats">1.8M views &#8226; 11 months ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="thumbnails/thumbnail-5.webp"
+              alt=""
+            />
+            <div class="video-time">7:77</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-avatar">
+              <img
+                class="profile-picture"
+                src="avatars/avatar-5.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-meta">
+              <p class="video-title">
+                Qualifying Highlights | 2022 Monaco Grand Prix
+              </p>
+              <p class="video-author">FORMULA 1</p>
+              <p class="video-stats">3.6M views &#8226; 16 hours ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="thumbnails/thumbnail-1.webp"
+              alt=""
+            />
+            <div class="video-time">C30-C39</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-avatar">
+              <img
+                class="profile-picture"
+                src="avatars/avatar-1.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-meta">
+              <p class="video-title">
+                This Cup Of The Day Was Pure Troll... (FULL VOD)
+              </p>
+              <p class="video-author">Wirtual VOD</p>
+              <p class="video-stats">3.2K views &#8226; 54 minutes ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="thumbnails/thumbnail-2.webp"
+              alt=""
+            />
+            <div class="video-time">-1</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-avatar">
+              <img
+                class="profile-picture"
+                src="avatars/avatar-2.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-meta">
+              <p class="video-title">How many continents are there?</p>
+              <p class="video-author">Jay Foreman</p>
+              <p class="video-stats">1.8M views &#8226; 11 months ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="thumbnails/thumbnail-3.webp"
+              alt=""
+            />
+            <div class="video-time">ojtak tak</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-avatar">
+              <img
+                class="profile-picture"
+                src="avatars/avatar-3.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-meta">
+              <p class="video-title">
+                Partyjka naprawdę pikantna! Przygotujcie coś do popicia..
+                Jones vs. Praggnanandhaa, Chessable, 2022
+              </p>
+              <p class="video-author">Jay Foreman</p>
+              <p class="video-stats">4.6K views &#8226; 14 hours ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
