@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="stopwatch.css" />
+    <title>JS Vanilla Stopwatch</title>
+  </head>
+  <body>
+    <div id="app">
+      <p class="time">
+        <span id="minutes-span">00</span>:<span id="seconds-span">00</span>
+      </p>
+      <div id="control-panel">
+        <button class="button" id="start-btn">Start</button>
+        <button class="button" id="stop-btn">Stop</button>
+        <button class="button" id="reset-btn">Reset</button>
+        <button class="button" id="lap-btn">Lap</button>
+      </div>
+      <div class="lap-list">
+        <div class="lap-headers">
+          <div></div>
+          <div>Interval</div>
+          <div>Total</div>
+        </div>
+        <div class="lap-times"></div>
+      </div>
+    </div>
+    <script src="stopwatch.js"></script>
+  </body>
+</html>

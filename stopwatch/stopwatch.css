@@ -1,0 +1,75 @@
+#app {
+  width: 80vw;
+  max-width: 20rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #e6fafc;
+  margin: 40px 100px;
+}
+
+.time {
+  font-family: Helvetica, Arial, Sans-Serif;
+  font-size: 100px;
+  margin: 0;
+}
+
+.button {
+  width: 20%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: none;
+  color: #e6fafc;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 250ms ease-in-out;
+}
+
+.button#start-btn {
+  color: black;
+  background-color: #9cfc97;
+}
+.button#start-btn:hover {
+  color: #e6fafc;
+  background-color: black;
+}
+
+.button#stop-btn {
+  background-color: #353d2f;
+}
+.button#stop-btn:hover {
+  color: #e6fafc;
+  background-color: black;
+}
+
+.button#reset-btn {
+  background-color: #515b3a;
+}
+.button#reset-btn:hover {
+  color: #e6fafc;
+  background-color: black;
+}
+
+.button#lap-btn {
+  background-color: #6ba368;
+}
+.button#lap-btn:hover {
+  color: #e6fafc;
+  background-color: black;
+}
+
+.lap-times {
+  display: grid;
+  grid-template-columns: 32px 1fr 1fr;
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+.lap-headers {
+  display: grid;
+  grid-template-columns: 32px 1fr 1fr;
+  font-family: Helvetica, Arial, Sans-Serif;
+  margin-top: 20px;
+}
+
+.lap-interval {
+  color: #6ba368;
+}

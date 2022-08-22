@@ -1,0 +1,84 @@
+.sound-btns-container {
+  display: inline-grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 2px;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: #635d5c;
+  padding: 20px;
+  box-shadow: 0px 0px 8px 8px rgba(170, 171, 176, 1);
+  margin: 30px;
+}
+
+.complex-btn {
+  position: relative;
+  border: solid 1px black;
+}
+
+.sound-btn {
+  width: 200px;
+  height: 160px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: inset 0px 0px 55px 20px rgb(144, 144, 144);
+}
+
+.sound-btn:active,
+.sound-btn-active {
+  background-color: rgb(246, 44, 78);
+  box-shadow: inset 0px 0px 55px 10px rgb(144, 144, 144);
+}
+
+.key-btn {
+  position: absolute;
+  left: 6%;
+  bottom: 6%;
+  width: 15%;
+  aspect-ratio: 1/1;
+  padding-left: 2px;
+  padding-right: 2px;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2px;
+  background-color: rgb(178, 178, 178);
+  border: 1px solid gray;
+}
+
+.file-btn {
+  position: absolute;
+  right: 6%;
+  bottom: 6%;
+  width: 15%;
+  aspect-ratio: 1/1;
+  padding: 0 2px 0 0;
+  background-color: rgb(178, 178, 178);
+  border: 1px solid gray;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.key-btn-active,
+.file-btn-active {
+  border: none;
+  box-shadow: 0px 0px 10px 2px rgb(0, 0, 0);
+}
+
+.key-btn-assigned,
+.file-btn-assigned {
+  background-color: #d8d5d5;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border: solid 1px black;
+}
+
+.key-btn i {
+  pointer-events: none;
+}
+
+.file-btn i {
+  pointer-events: none;
+}
